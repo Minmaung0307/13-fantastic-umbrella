@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Minmaung0307/fantastic-umbrella.git"
+    "url": "git+ssh://git@github.com/Minmaung0307/fantastic-umbrella.git"
   },
   "keywords": [
     "npm",
@@ -31,5 +31,9 @@
     "mysql2": "^2.3.3",
     "sequelize": "^5.22.5",
     "sqlite3": "^5.1.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Minmaung0307/fantastic-umbrella/issues"
+  },
+  "homepage": "https://github.com/Minmaung0307/fantastic-umbrella#readme"
 }
