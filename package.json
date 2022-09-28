@@ -1,7 +1,7 @@
 {
-  "name": "module-13-challenge-orm",
+  "name": "fantastic-umbrella",
   "version": "1.0.0",
-  "description": "",
+  "description": "- WHEN I add my database name, MySQL username, and MySQL password to an environment variable file   THEN I am able to connect to a database using Sequelize",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,15 +14,17 @@
     "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Min Maung",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.6.0",
     "express": "^4.17.1",
     "mysql2": "^2.1.0",
-    "sequelize": "^5.21.7"
+    "sequelize": "^5.22.5",
+    "sqlite3": "^5.1.1"
   }
 }
