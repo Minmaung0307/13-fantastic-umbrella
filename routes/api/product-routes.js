@@ -10,7 +10,7 @@ router.get("/", (req, res) => {
   Product.findAll({
     include: [{ model: Category }, { model: Tag }],
   })
-    .then((productData) => res.json(productData))
+    .then((productData) => res.status(200).json(productData))
     // if error send back 500 response
     .catch((err) => {
       res.status(500).json(err);
